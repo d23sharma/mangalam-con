@@ -77,7 +77,7 @@ ${formData.service}
 📝 Message:
 ${formData.message}`;
 
-    const whatsappURL = `whatsapp://send?phone=918408811234&text=${encodeURIComponent(
+    const whatsappURL = `whatsapp://send?phone=916269785582&text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
@@ -216,7 +216,7 @@ ${formData.message}`;
                 <h3 className="font-display text-lg font-semibold">Phone</h3>
 
                 <a
-                  href="tel:+918408811234"
+                  href="tel:+916269785582"
                   className="text-muted-foreground hover:text-primary transition"
                 >
                   +91 84088 11234
@@ -237,7 +237,7 @@ ${formData.message}`;
             </div>
 
             <a
-              href="tel:+918408811234"
+              href="tel:+916269785582"
               className="flex items-center justify-center gap-2 bg-primary text-white py-4 rounded-lg font-semibold hover:bg-primary/90 transition"
             >
               <Phone size={20} />

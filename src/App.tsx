@@ -15,7 +15,7 @@ const queryClient = new QueryClient();
 /* ---------------- WHATSAPP FLOAT BUTTON ---------------- */
 
 const WhatsAppFloat = () => {
-  const number = "918408811234";
+  const number = "916269785582";
 
   const message = encodeURIComponent(
     "Hello Mangalam Construction, I would like to enquire about your services."
@@ -38,7 +38,7 @@ const WhatsAppFloat = () => {
 const CallButton = () => {
   return (
     <a
-      href="tel:+918408811234"
+      href="tel:+916269785582"
       className="fixed bottom-6 left-6 z-50 flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-full shadow-lg hover:scale-105 transition"
     >
       <PhoneCall size={18} />
@@ -82,7 +82,7 @@ const ExitIntentPopup = () => {
         </p>
 
         <a
-          href="tel:+918408811234"
+          href="tel:+916269785582"
           className="bg-primary text-white px-6 py-3 rounded-lg font-semibold"
         >
           Call Now
