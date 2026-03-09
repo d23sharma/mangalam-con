@@ -173,7 +173,7 @@ ${formData.message}`;
                 <textarea
                   name="message"
                   rows={4}
-                  placeholder="Message"
+                  placeholder="Please specify the details like your bugget, location, timeline etc"
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-input bg-background resize-none focus:outline-none focus:ring-2 focus:ring-amber-500/40 focus:border-amber-500"

@@ -27,14 +27,14 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-0">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-3">
+        <a href="#home" className="flex items-center gap-3" >
           <img
             src={logo}
             alt="Mangalam Construction Logo"
             width={100}
             height={100}
-            className="w-16 h-16 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
-          />
+            className="w-16 h-18 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain -mt-3"
+          /> 
 
           <span className="sm:block text-center font-display text-[20px] md:text-xl lg:text-2xl font-bold text-primary-foreground tracking-wide">
             Mangalam <span className="text-gradient-gold">Construction</span>

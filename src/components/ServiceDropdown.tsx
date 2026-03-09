@@ -113,7 +113,7 @@ export default function ServiceDropdown({ value, onChange }: Props) {
           focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
                 >
                     <span className={value ? "text-neutral-900" : "text-neutral-400"}>
-                        {value || "Type of Service"}
+                        {value || "Service you are interested in"}
                     </span>
 
                     <ChevronDown
