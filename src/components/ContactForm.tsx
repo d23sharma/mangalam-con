@@ -219,7 +219,7 @@ ${formData.message}`;
                   href="tel:+916269785582"
                   className="text-muted-foreground hover:text-primary transition"
                 >
-                  +91 84088 11234
+                  +91 62697 85582
                 </a>
               </div>
             </div>
